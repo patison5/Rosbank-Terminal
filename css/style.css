@@ -1,0 +1,257 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,
+dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,
+th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /*font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;*/
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font: 13px/16px "GothaProLig", "DINNextCYR-Light", Arial, Tahoma, sans-serif;
+  color: #000;
+}
+ol,
+ul, li {
+  list-style: none;
+}
+* {
+  margin: 0;
+  outline: none;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a,
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+input {
+  -webkit-appearance: none;
+}
+
+
+/********************************************************/
+/*                      МИКСИНГИ                        */
+/********************************************************/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/********************************************************/
+/*                    ОСНОВНЫЕ СТИЛИ                    */
+/********************************************************/
+body {
+  background: #fff;
+  width: 1920px; /*пока что задал фикс данные*/
+  height: 1080px;
+}
+a:hover {
+  color: #026353;
+}
+
+
+
+
+.left-aside {
+  display: block;
+  float: left;
+  width: 62%;
+  height: 100vh;
+  padding-left: 50px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.right-aside {
+  display: block;
+  float: left;
+  width: 38%;
+  height: 100vh;
+  position: relative;
+  padding: 30px;
+  padding-left: 80px;
+}
+
+
+.logo-wrap, .banner {
+  z-index: 2;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.logo__top {
+  width: 100%;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+}
+
+.logo__img {
+  display: block;
+  float: left;
+}
+.logo__text{
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.logo__text span {
+  color: red;
+}
+
+
+.banner {
+  width: 65%;
+  height: 40%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.plan-block {
+  display: flex;
+  align-items: stretch;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  bottom: 50px;
+  left: 50px;
+  z-index: 1;
+  /*background: #ccc url("../images/plan.png") center center no-repeat;*/
+  background-size: cover;
+}
+
+
+
+
+
+.aside__header {
+  color: #666666;
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
+.aside-menu {
+  display: grid;
+  list-style-type: none;
+  grid-template-rows: repeat(23, 1fr);
+  height: 95%;
+  position: relative;
+}
+
+.ico-icon {
+  width: 25px;
+  height: 29px;
+  background: #ccc;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu__item:hover {
+  color: red;
+}
+
+
+.ico-info {
+  background: url('../images/info.svg') center center no-repeat;
+  background-size: cover;
+}
+.ico-demon-zal {
+  background: url("../images/demonstrazionniy_zal-ico.svg")  center center no-repeat;
+  background-size: cover;
+}
+
+.ico-nav { 
+ background: url('../images/ico-nav.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-ochered { 
+ background: url('../images/ico-ochered.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-notarius { 
+ background: url('../images/ico-notarius.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-blank { 
+ background: url('../images/ico-blank.svg') center center no-repeat;
+ background-size: cover;
+}
+.ico-notarius { 
+ background: url('../images/ico-notarius.svg') center center no-repeat;
+ background-size: cover;
+}
+.ico-agent { 
+ background: url('../images/ico-agent.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-peregovory { 
+ background: url('../images/ico-peregovory.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-deposit { 
+ background: url('../images/ico-deposit.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-kassy { 
+ background: url('../images/ico-kassy.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-espressobar { 
+ background: url('../images/ico-espressobar.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-childrencorner { 
+ background: url('../images/ico-childrencorner.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-kolasochnaya { 
+ background: url('../images/ico-kolasochnaya.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-pelenalnaya { 
+ background: url('../images/ico-pelenalnaya.svg') center center no-repeat;
+ background-size: cover;
+}
+
+.ico-toilet { 
+ background: url('../images/ico-toilet.svg') center center no-repeat;
+ background-size: cover;
+}
