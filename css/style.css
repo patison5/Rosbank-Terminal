@@ -141,6 +141,11 @@ a:hover {
   background-size: cover;
 }
 
+.plan-block object {
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
 
 
 
