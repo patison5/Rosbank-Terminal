@@ -177,12 +177,20 @@ a:hover {
   color: #000;
   cursor: pointer;
   font-weight: bold;
+  border: 1px solid transparent;
 }
 
-.menu__item:hover {
-  color: red;
-}
+.menu__item:hover {}
 
+.meun-item__text {
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  line-height: 28px;
+}
+.meun-item__text:hover {
+  border: 1px solid red; 
+  border-radius: 20px;
+}
 
 .ico-info {
   background: url('../images/info.svg') center center no-repeat;
@@ -259,4 +267,104 @@ a:hover {
 .ico-toilet { 
  background: url('../images/ico-toilet.svg') center center no-repeat;
  background-size: cover;
+}
+
+
+
+
+
+
+/*.plan-block #B_01,
+.plan-block #B_02,
+.plan-block #B_03,
+.plan-block #B_04,
+.plan-block #B_05,
+.plan-block #B_06,
+.plan-block #B_07,
+.plan-block #B_08,
+.plan-block #B_09,
+.plan-block #B_10,
+.plan-block #B_11 {
+  transition: all 0.8s;
+  opacity: 0;
+}
+
+
+.Pereg_1_11 #B_01,
+.Pereg_1_11 #B_02,
+.Pereg_1_11 #B_03,
+.Pereg_1_11 #B_04,
+.Pereg_1_11 #B_05,
+.Pereg_1_11 #B_06,
+.Pereg_1_11 #B_07,
+.Pereg_1_11 #B_08,
+.Pereg_1_11 #B_09,
+.Pereg_1_11 #B_10,
+.Pereg_1_11 #B_11 {
+  opacity: 1;
+  transition: all 0.8s;
+}
+
+
+.plan-block #com_3 {
+  display: none;
+}
+
+.plan-block #com_3 {
+  display: none;
+}
+
+*/
+
+
+g, path {
+  transition: all 1s ease;
+}
+
+#small_45 path {
+ 
+  /*transform: translate(10);*/
+  /*transform-origin:  0;*/
+  background: #fff;
+}
+#small_45 #Vector_87 {
+  fill: red;
+/*  transform: scale(1) rotate(-20deg) translate(0,0);
+  height: 50px;
+  width: 50px;
+  transform-origin: center;*/
+}
+
+
+
+
+
+.bx-wrapper {
+  background: transparent;
+  border-color: transparent;
+}
+.bx-wrapper img {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+
+/*background-ico-hands.svg*/
+.right-aside {}
+
+
+.asside__bg {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.1;
+
+  background: url('../images/ico-blank.svg') no-repeat center center;
+  /*background-size: contain;*/
+  background-size: 85% auto;
+  transition: all 0.5s ease;
 }
