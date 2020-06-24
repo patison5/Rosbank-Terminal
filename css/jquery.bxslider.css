@@ -71,7 +71,7 @@
 /* LOADER */
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(../images/bx_loader.gif) center center no-repeat #fff;
+	/*background: url(../images/bx_loader.gif) center center no-repeat #fff;*/
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -127,21 +127,21 @@
 
 .bx-wrapper .bx-prev {
 	left: 0px;
-	background: url(../images/backl_OFF.png) no-repeat 0 0;
+	/*background: url(../images/backl_OFF.png) no-repeat 0 0;*/
 }
 
 .bx-wrapper .bx-next {
 	right: 0;
-	background: url(../images/forward_OFF.png) no-repeat right 0;
+	/*background: url(../images/forward_OFF.png) no-repeat right 0;*/
 }
 
 .bx-wrapper .bx-prev:hover {
-	background: url(../images/back_ON.png) no-repeat 0 0;
+	/*background: url(../images/back_ON.png) no-repeat 0 0;*/
 }
 
 .bx-wrapper .bx-next:hover {
 	/*background-position: -43px 0;*/
-	background: url(../images/forward_ON.png) no-repeat right 0;
+	/*background: url(../images/forward_ON.png) no-repeat right 0;*/
 }
 
 .bx-wrapper .bx-controls-direction a {

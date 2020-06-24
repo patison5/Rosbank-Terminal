@@ -137,7 +137,6 @@ a:hover {
   bottom: 50px;
   left: 50px;
   z-index: 1;
-  /*background: #ccc url("../images/plan.png") center center no-repeat;*/
   background-size: cover;
 }
 
@@ -186,10 +185,11 @@ a:hover {
   border: 1px solid transparent;
   padding: 5px 10px;
   line-height: 28px;
-}
-.meun-item__text:hover {
-  border: 1px solid red; 
   border-radius: 20px;
+}
+.meun-item__text:hover,
+.meun-item__text:active {
+  border: 1px solid red; 
 }
 
 .ico-info {
@@ -270,74 +270,14 @@ a:hover {
 }
 
 
-
-
-
-
-/*.plan-block #B_01,
-.plan-block #B_02,
-.plan-block #B_03,
-.plan-block #B_04,
-.plan-block #B_05,
-.plan-block #B_06,
-.plan-block #B_07,
-.plan-block #B_08,
-.plan-block #B_09,
-.plan-block #B_10,
-.plan-block #B_11 {
-  transition: all 0.8s;
-  opacity: 0;
-}
-
-
-.Pereg_1_11 #B_01,
-.Pereg_1_11 #B_02,
-.Pereg_1_11 #B_03,
-.Pereg_1_11 #B_04,
-.Pereg_1_11 #B_05,
-.Pereg_1_11 #B_06,
-.Pereg_1_11 #B_07,
-.Pereg_1_11 #B_08,
-.Pereg_1_11 #B_09,
-.Pereg_1_11 #B_10,
-.Pereg_1_11 #B_11 {
-  opacity: 1;
-  transition: all 0.8s;
-}
-
-
-.plan-block #com_3 {
-  display: none;
-}
-
-.plan-block #com_3 {
-  display: none;
-}
-
-*/
-
-
-g, path {
+g, path, circle {
   transition: all 1s ease;
 }
 
-#small_45 path {
- 
-  /*transform: translate(10);*/
-  /*transform-origin:  0;*/
-  background: #fff;
-}
 #small_45 #Vector_87 {
   fill: red;
-/*  transform: scale(1) rotate(-20deg) translate(0,0);
-  height: 50px;
-  width: 50px;
-  transform-origin: center;*/
+
 }
-
-
-
-
 
 .bx-wrapper {
   background: transparent;
@@ -347,11 +287,6 @@ g, path {
   border-radius: 5px;
   overflow: hidden;
 }
-
-
-/*background-ico-hands.svg*/
-.right-aside {}
-
 
 .asside__bg {
   display: block;
@@ -367,4 +302,19 @@ g, path {
   /*background-size: contain;*/
   background-size: 85% auto;
   transition: all 0.5s ease;
+}
+
+
+#K_Zone {
+  opacity: 0;
+}
+
+#O_Zone {
+  opacity: 0;
+}
+
+
+.bx-prev, 
+.bx-next {
+  display: none;
 }
